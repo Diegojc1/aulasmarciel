@@ -1,0 +1,26 @@
+// Seção de Declarações
+var
+    v1, v2, v3: caractere
+inicio
+    // Seção de Comandos
+    escreval() // gera um pulo de linha
+    escreva("     Entre com uma palavra : ")
+    leia(v1)
+    escreva("     Entre com outra palavra : ")
+    leia(v2)
+    
+    escreval()
+    escreval("     Variável 1           : ",v1)
+    escreval("     Variável 2           : ",v2)
+    escreval()
+    escreval("     Trocando as variáveis de posição...")
+    
+    // Troca de variáveis
+    v3 <- v1
+    v1 <- v2
+    v2 <- v3
+    
+    escreval()
+    escreval("     Variável 1            : ",v1)
+    escreval("     Variável 2            : ",v2)
+fimalgoritmo
