@@ -1,0 +1,13 @@
+Algoritmo IdentificaParOuImpar
+Inicio
+    Declare numero como Inteiro
+
+    Escreva "Insira um número inteiro: "
+    Leia numero
+
+    Se numero % 2 = 0 Entao
+        Escreva "O número ", numero, " é par."
+    Senao
+        Escreva "O número ", numero, " é ímpar."
+    FimSe
+Fim
