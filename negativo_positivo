@@ -1,0 +1,15 @@
+Algoritmo IdentificaNumero
+Inicio
+    Declare A, B, numero como Real
+
+    Escreva "Digite um número: "
+    Leia numero
+
+    Se numero >= 0 Entao
+        A := numero
+        Escreva "Número positivo: ", A
+    Senao
+        B := numero
+        Escreva "Número negativo: ", B
+    FimSe
+Fim
