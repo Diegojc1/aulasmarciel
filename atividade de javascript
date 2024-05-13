@@ -1,0 +1,15 @@
+1.
+alert("Boas vindas ao nosso site!");
+
+2.
+var nome = "Lua";
+
+3.
+var saldoDisponivel = 1000;
+
+4.
+alert("Erro! Preencha todos os campos");
+
+5.
+var mensagemDeErro = "Erro! Preencha todos os campos";
+alert(mensagemDeErro);
